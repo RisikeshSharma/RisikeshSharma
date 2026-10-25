@@ -108,11 +108,12 @@ flowchart TD
 ## 🚀 Featured Enterprise Projects
 
 ### 1. 🔐 [`azure-enterprise-landing-zones`](https://github.com/RisikeshSharma/azure-enterprise-landing-zones)
-Production-grade Terraform framework implementing Microsoft Cloud Adoption Framework (CAF) with Hub-and-Spoke network topology, Privileged Identity Management (PIM), and Azure Policy guardrails.
-* **Architecture:** Micro-segmented Management Groups (`Platform` vs `Landing Zones`), User Defined Routes (UDRs) forcing egress through Azure Firewall Premium with TLS inspection.
+Production-grade, modular Terraform framework implementing Microsoft Cloud Adoption Framework (CAF) with Hub-and-Spoke network topology, Azure Firewall Premium, and Azure Policy guardrails.
+* **Hub-and-Spoke Platform Architecture:** Central Connectivity Hub (`modules/hub_connectivity`) with Azure Firewall Premium (TLS inspection + IDPS), Azure Bastion, and Private DNS Zones. Scalable workload landing zones (`modules/spoke_workload`) with micro-segmented subnets and UDR default-deny egress.
+* **Advanced Terraform Patterns:** Reusable multi-module architecture with `for_each` landing zone scaling, `dynamic "security_rule"` NSG blocks, `dynamic "delegation"`, and conditional CIS benchmark policy enforcement (`modules/governance_policy`).
 * **Security Checks:** Enforces 100% compliance against CIS Microsoft Azure Benchmark v2.0 via automated Checkov and Trivy scans in GitHub Actions.
 
-[**Explore Azure Landing Zones →**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones) · [**GitHub Actions CI →**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/actions) · [**Terraform Modules**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/blob/main/main.tf) · [**Variables Spec**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/blob/main/variables.tf)
+[**Explore Azure Landing Zones →**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones) · [**Explore Modules →**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/tree/main/modules) · [**GitHub Actions CI →**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/actions) · [**Terraform Root Config**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/blob/main/main.tf) · [**Variables Spec**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/blob/main/variables.tf)
 
 ---
 
