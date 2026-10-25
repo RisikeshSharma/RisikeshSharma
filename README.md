@@ -22,7 +22,7 @@
 
 I am a **Senior DevSecOps Engineer &amp; Cloud Solutions Architect** specializing in production-grade Microsoft Azure infrastructure, multi-cloud landing zones, shift-left pipeline security, and cutting-edge **Agentic AI systems (Model Context Protocol, RAG, and autonomous SRE operations)**.
 
-My architectural background focuses on **governing and migrating mission-critical workloads** to the cloud with zero downtime, enforcing zero-trust infrastructure as code (Terraform), and accelerating engineering delivery cycles while maintaining 100% CIS compliance.
+My architectural background focuses on **governing and migrating 100+ mission-critical workloads** to the cloud with zero downtime, enforcing zero-trust infrastructure as code (Terraform), and accelerating engineering delivery cycles while maintaining 100% CIS compliance.
 
 * ☁️ **Cloud &amp; Scale:** Designing enterprise Hub-and-Spoke topologies, Azure Cloud Adoption Framework (CAF) landing zones, and Kubernetes platforms (AKS/EKS).
 * 🛡️ **DevSecOps &amp; Supply Chain:** Baking automated security gates (Checkov, Trivy, GitLeaks, OPA Gatekeeper) into Azure DevOps and GitHub Actions CI/CD pipelines.
@@ -37,7 +37,7 @@ My architectural background focuses on **governing and migrating mission-critica
 flowchart TD
     subgraph Core["🏛️ Architecture & Governance"]
         A[Rishikesh Sharma Portfolio] --> B[Azure CAF Landing Zones]
-        A --> C[Multi-Cloud Workload Migration]
+        A --> C[100+ Workload Migration Engine]
         A --> D[Agentic AI SRE & MCP Platform]
     end
 
@@ -95,40 +95,51 @@ flowchart TD
 
 ---
 
+## 🏅 Industry Certifications
+
+- **AZ-305** — Microsoft Certified: Azure Solutions Architect Expert
+- **AZ-400** — Designing and Implementing Microsoft DevOps Solutions
+- **AZ-104** — Microsoft Certified: Azure Administrator Associate
+- **CKA** — Certified Kubernetes Administrator *(Cloud Native Computing Foundation)*
+- **HashiCorp Certified** — Terraform Associate (003)
+
+---
+
 ## 🚀 Featured Enterprise Projects
 
-### 1. 🔐 [`Terraform-Azure-modularInfrastructure-GitHubActionsCICD-multiEnvironment`](https://github.com/RisikeshSharma/Terraform-Azure-modularInfrastructure-GitHubActionsCICD-multiEnvironment)
-Production-grade modular Terraform framework implementing Azure infrastructure across multiple environments (Dev, Staging, Prod) with automated GitHub Actions CI/CD workflows.
-* **Architecture:** Enterprise modular structure with Azure Blob Storage remote state leasing, parameter validation, and environment isolation.
-* **Automation &amp; CI/CD:** Fully automated linting, security scanning, plan generation, and zero-downtime provisioning pipelines.
+### 1. 🔐 [`azure-enterprise-landing-zones`](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones)
+Production-grade Terraform framework implementing Microsoft Cloud Adoption Framework (CAF) with Hub-and-Spoke network topology, Privileged Identity Management (PIM), and Azure Policy guardrails.
+* **Architecture:** Micro-segmented Management Groups (`Platform` vs `Landing Zones`), User Defined Routes (UDRs) forcing egress through Azure Firewall Premium with TLS inspection.
+* **Security Checks:** Enforces 100% compliance against CIS Microsoft Azure Benchmark v2.0 via automated Checkov and Trivy scans in GitHub Actions.
 
-[**Explore Azure Modular Infrastructure →**](https://github.com/RisikeshSharma/Terraform-Azure-modularInfrastructure-GitHubActionsCICD-multiEnvironment)
-
----
-
-### 2. ☸️ [`axion-argocd-gitops`](https://github.com/RisikeshSharma/axion-argocd-gitops) &amp; [`Axion_Deployment_Helm`](https://github.com/RisikeshSharma/Axion_Deployment_Helm)
-GitOps-driven continuous delivery platform managing microservice deployments with **Argo CD**, Helm 3, and Kubernetes.
-* **GitOps Automation:** Declarative configuration management for UI services, telemetry, simulation engines, data ingestion, and PostgreSQL.
-* **Zero-Downtime:** Automated drift detection, replica scaling, blue-green sync, and declarative rollout management.
-
-[**Explore ArgoCD GitOps Repository →**](https://github.com/RisikeshSharma/axion-argocd-gitops) · [**Explore Axion Helm Charts →**](https://github.com/RisikeshSharma/Axion_Deployment_Helm)
+[**Explore Azure Landing Zones →**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones) · [**GitHub Actions CI →**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones/actions) · [**Terraform Modules**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones/blob/main/main.tf) · [**Variables Spec**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones/blob/main/variables.tf)
 
 ---
 
-### 3. ☁️ [`Azure_Kubernetes_Infra`](https://github.com/RisikeshSharma/Azure_Kubernetes_Infra) &amp; [`AWS_EKS_Infra`](https://github.com/RisikeshSharma/AWS_EKS_Infra)
-Production-ready Kubernetes clusters across Microsoft Azure (AKS) and Amazon Web Services (EKS).
-* **Multi-Cloud Container Runtime:** Hardened network security, zero-trust ingress, namespace-level isolation, and external secrets integration.
-* **Scalability &amp; Reliability:** Production node pools, auto-scaling controllers, and Prometheus/Grafana observability.
+### 2. 🤖 [`agentic-devsecops-copilot`](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot)
+Autonomous Multi-Agent Incident Response &amp; Infrastructure Self-Healing platform driven by Anthropic's **Model Context Protocol (MCP)** and **LangGraph**.
+* **Autonomous SRE:** Listens to webhook alerts from Azure Monitor / Prometheus, queries internal vector knowledge bases (Qdrant) for runbooks, inspects live pod telemetry via MCP, and auto-drafts verified GitOps PRs with Infracost diff calculations.
+* **Impact:** Reduced Mean Time to Resolution (MTTR) from 45 minutes to **under 5 minutes** in production benchmark scenarios.
 
-[**Explore Azure AKS Infrastructure →**](https://github.com/RisikeshSharma/Azure_Kubernetes_Infra) · [**Explore AWS EKS Infrastructure →**](https://github.com/RisikeshSharma/AWS_EKS_Infra)
+[**Explore Agentic Copilot →**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot) · [**MCP Server Code**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot/blob/main/server.py) · [**LangGraph Swarm**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot/blob/main/agent.py) · [**Evaluation Pipeline**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot/actions)
 
 ---
 
-### 4. 🏗️ [`Terraform-Code-Practices`](https://github.com/RisikeshSharma/Terraform-Code-Practices)
-Curated collection of enterprise Terraform best practices, reusable pattern libraries, and security benchmarks.
-* **Best Practices:** Reusable module blueprints, variable validation rules, state locking patterns, and CI/CD security gating.
+### 3. ☸️ [`zero-trust-kubernetes-gitops`](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops)
+Hardened Multi-Tenant Kubernetes (AKS/EKS) cluster deployment driven strictly by ArgoCD GitOps pipelines.
+* **Security &amp; Mesh:** Cilium eBPF default-deny network security policies, HashiCorp Vault secrets injected via External Secrets Operator, Sigstore Cosign image verification, and Open Policy Agent (OPA) admission controls.
+* **Supply Chain:** Automated container image vulnerability scanning with Trivy and automated CycloneDX SBOM generation.
 
-[**Explore Terraform Code Practices →**](https://github.com/RisikeshSharma/Terraform-Code-Practices)
+[**Explore Kubernetes GitOps →**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops) · [**Cilium Policies**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops/tree/main/cilium-policies) · [**OPA Gatekeeper**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops/tree/main/gatekeeper) · [**Vault Sync**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops/tree/main/vault-external-secrets)
+
+---
+
+### 4. 💰 [`cloud-finops-sentinel`](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel)
+Serverless cloud financial management bot automating multi-cloud waste elimination and resource rightsizing.
+* **Waste Elimination:** Automatically detects and purges unattached managed disks, obsolete VM snapshots, unassociated public IPs, and schedules non-production workloads outside business hours.
+* **Cost Impact:** Saved **32% cloud OPEX** across 100+ simulated workloads with automated Infracost PR budget enforcement.
+
+[**Explore FinOps Sentinel →**](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel) · [**Waste Detectors**](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel/blob/main/analyzers/waste_detector.py) · [**Rightsizing Engine**](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel/blob/main/analyzers/rightsizing.py)
 
 ---
 
@@ -169,7 +180,7 @@ I welcome conversations regarding Cloud Architecture, Enterprise DevSecOps trans
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-RisikeshSharma-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white)](https://github.com/RisikeshSharma)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white)](https://github.com/RisikeshSharma?tab=repositories)
 [![Email](https://img.shields.io/badge/Email-Direct_Inquiry-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white)](mailto:srishikesh39@gmail.com)
 
 <br/>
