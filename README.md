@@ -94,17 +94,6 @@ flowchart TD
 | 💰 **FinOps & Governance** | Infracost pre-merge budget gates, Azure Policy Initiatives, Rightsizing, Reserved Instances (RI), Savings Plans |
 
 ---
-
-## 🏅 Industry Certifications
-
-- **AZ-305** — Microsoft Certified: Azure Solutions Architect Expert
-- **AZ-400** — Designing and Implementing Microsoft DevOps Solutions
-- **AZ-104** — Microsoft Certified: Azure Administrator Associate
-- **CKA** — Certified Kubernetes Administrator *(Cloud Native Computing Foundation)*
-- **HashiCorp Certified** — Terraform Associate (003)
-
----
-
 ## 🚀 Featured Enterprise Projects
 
 ### 1. 🔐 [`azure-enterprise-landing-zones`](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones)
@@ -166,7 +155,7 @@ Serverless cloud financial management bot automating multi-cloud waste eliminati
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bhakuaengineer-devopsinsiders&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Bhakua Engineer's GitHub Stats" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=bhakuaengineer-devopsinsiders&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Rishikesh Sharma's GitHub Stats" width="48%" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhakuaengineer-devopsinsiders&theme=radical&hide_border=true" alt="GitHub Streak" width="48%" />
 
 </div>
