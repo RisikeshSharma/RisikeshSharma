@@ -10,8 +10,9 @@
 
 **Enterprise Cloud Infrastructure · Zero-Trust Security · GitOps Automation · Autonomous SRE**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white)](https://www.linkedin.com/in/rishikesh-sharma-devsecops)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white)](https://github.com/RisikeshSharma?tab=repositories)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white)](mailto:srishikesh39@gmail.com)
 [![Control Plane](https://img.shields.io/badge/Status-Available_for_Senior_Roles-16803D?style=for-the-badge&amp;logo=opsgenie&amp;logoColor=white)](#-connect)
 
 </div>
@@ -169,7 +170,7 @@ I welcome conversations regarding Cloud Architecture, Enterprise DevSecOps trans
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white)](https://www.linkedin.com/in/rishikesh-sharma-devsecops)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white)](https://github.com/RisikeshSharma?tab=repositories)
 [![Email](https://img.shields.io/badge/Email-Direct_Inquiry-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white)](mailto:srishikesh39@gmail.com)
 
