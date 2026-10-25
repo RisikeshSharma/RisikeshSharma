@@ -155,8 +155,8 @@ Serverless cloud financial management bot automating multi-cloud waste eliminati
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bhakuaengineer-devopsinsiders&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Rishikesh Sharma's GitHub Stats" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bhakuaengineer-devopsinsiders&theme=radical&hide_border=true" alt="GitHub Streak" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Rishikesh Sharma&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Rishikesh Sharma's GitHub Stats" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rishikesh Sharmas&theme=radical&hide_border=true" alt="GitHub Streak" width="48%" />
 
 </div>
 
