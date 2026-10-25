@@ -1,213 +1,190 @@
-<h1 align="center">Hi 👋, I'm Rishikesh Sharma</h1>
+<div align="center">
 
-<p align="center">
-🚀 Azure DevOps Engineer | Cloud Automation | CI/CD | Infrastructure as Code | AI |
-</p>
+<img src="./assets/banner.svg" alt="Bhakua Engineer - Principal Cloud Architect & Agentic AI Systems" width="100%" />
 
+<a href="https://readme-typing-svg.demolab.com/">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&pause=1100&color=00E5FF&center=true&vCenter=true&width=900&height=60&lines=Senior+DevSecOps+Engineer+%7C+Cloud+Architect;Microsoft+Azure+%7C+Terraform+IaC+%7C+Zero-Trust+CI%2FCD;Agentic+AI+Engineering+%7C+Model+Context+Protocol+(MCP)+%26+RAG;Migrating+100%2B+Workloads+with+Zero-Downtime;Building+Self-Healing+%26+FinOps-Optimized+Cloud+Platforms" alt="Animated DevSecOps headline" />
+</a>
 
-<p align="center">
+### 🔐 Senior DevSecOps Engineer & Cloud Architect | Agentic AI Systems
 
-![Profile Views](https://komarev.com/ghpvc/?username=Rishi-7211&style=flat-square) 
+**Enterprise Cloud Infrastructure · Zero-Trust Security · GitOps Automation · Autonomous SRE**
 
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bhakuaengineer-devopsinsiders?tab=repositories)
+[![Control Plane](https://img.shields.io/badge/Status-Available_for_Senior_Roles-16803D?style=for-the-badge&logo=opsgenie&logoColor=white)](#-connect)
 
+</div>
 
-<h3 align="center">
-A Passionate DevOps Engineer from India 🇮🇳
-</h3>
+---
 
+## 👋 About Me
 
-## 👨‍💻 About Me
+I am a **Senior DevSecOps Engineer & Cloud Solutions Architect** specializing in production-grade Microsoft Azure infrastructure, multi-cloud landing zones, shift-left pipeline security, and cutting-edge **Agentic AI systems (Model Context Protocol, RAG, and autonomous SRE operations)**.
 
-- 💼 DevOps Engineer with **5 years of experience**
-- ☁️ Working on **Azure Cloud & Azure DevOps**
-- 🚀 Building **CI/CD Pipelines & Cloud Automation**
-- 🌱 Learning **Kubernetes, Helm, ArgoCD & Advanced Terraform**
-- 💬 Ask me about **Azure DevOps, Docker, Kubernetes, Terraform**
-- ⚡ Passionate about **Automation, Cloud & Infrastructure**
-- 📫 Reach me: **srishikesh39@gmail.com**
+My architectural background focuses on **governing and migrating 100+ mission-critical workloads** to the cloud with zero downtime, enforcing zero-trust infrastructure as code (Terraform), and accelerating engineering delivery cycles while maintaining 100% CIS compliance.
 
-## 🛠 Languages and Tools
+* ☁️ **Cloud & Scale:** Designing enterprise Hub-and-Spoke topologies, Azure Cloud Adoption Framework (CAF) landing zones, and Kubernetes platforms (AKS/EKS).
+* 🛡️ **DevSecOps & Supply Chain:** Baking automated security gates (Checkov, Trivy, GitLeaks, OPA Gatekeeper) into Azure DevOps and GitHub Actions CI/CD pipelines.
+* 🤖 **Agentic AI & LLMOps:** Implementing **Model Context Protocol (MCP)** and **LangGraph Multi-Agent Swarms** for automated incident triage, root cause analysis (RCA), and self-healing GitOps PR remediation.
+* 💰 **FinOps & Cost Governance:** Cutting up to 32% cloud OPEX through automated resource rightsizing, orphan storage cleanup, and predictive CI/CD cost gating.
 
-<table align="center">
+---
 
-<!-- Cloud & CI/CD -->
-<tr>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=azure" width="55"/><br>Azure
-</td>
-
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=aws" width="55"/><br>AWS
-</td>
-
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=gcp" width="55"/><br>GCP
-</td>
+## 🧭 Portfolio Delivery Map
 
-<td align="center" width="120">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg" width="55"/>
-<br>Azure<br>DevOps
-</td>
+```mermaid
+flowchart TD
+    subgraph Core["🏛️ Architecture & Governance"]
+        A[Bhakua Engineer Portfolio] --> B[Azure CAF Landing Zones]
+        A --> C[100+ Workload Migration Engine]
+        A --> D[Agentic AI SRE & MCP Platform]
+    end
 
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=githubactions" width="55"/>
-<br>GitHub<br>Actions
-</td>
-</tr>
+    subgraph DevSecOps["🛡️ DevSecOps & Automation"]
+        B --> E[Terraform Modular IaC]
+        E --> F[Infracost Budget Gate]
+        E --> G[Checkov & Trivy Security Gate]
+        G --> H[Azure DevOps / GitHub Pipelines]
+    end
 
+    subgraph AI["🤖 Autonomous AI Operations"]
+        D --> I[Model Context Protocol Host]
+        I --> J[Vector Runbook RAG - Qdrant]
+        J --> K[Self-Healing GitOps Hotfix PR]
+    end
 
-<!-- Containers & GitOps -->
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=terraform" width="55"/>
-<br>Terraform
-</td>
+    subgraph Runtime["☸️ Production Runtime"]
+        H --> L[Zero-Trust AKS Cluster]
+        K --> L
+        L --> M[Cilium eBPF & Vault Secrets]
+    end
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=docker" width="55"/>
-<br>Docker
-</td>
+    classDef blue fill:#0B1F3A,stroke:#0078D4,stroke-width:2px,color:#fff;
+    classDef green fill:#052e16,stroke:#10b981,stroke-width:2px,color:#fff;
+    classDef purple fill:#2e1065,stroke:#a855f7,stroke-width:2px,color:#fff;
+    class A,B,C,E,F,H blue;
+    class G,L,M green;
+    class D,I,J,K purple;
+```
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=kubernetes" width="55"/>
-<br>Kubernetes
-</td>
+---
 
-<td align="center">
-<img src="https://helm.sh/img/helm.svg" width="55"/>
-<br>Helm
-</td>
+## 🧰 Technology Stack
 
-<td align="center">
-<img src="https://raw.githubusercontent.com/cncf/artwork/main/projects/argo/icon/color/argo-icon-color.svg" width="55"/>
-<br>ArgoCD
-</td>
-</tr>
+<div align="center">
 
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=azure,aws,terraform,kubernetes,docker,githubactions,git,linux,bash,powershell,python,postgres,prometheus,grafana&perline=7" alt="Technology Stack Icons" />
+</a>
 
-<!-- Monitoring -->
-<tr>
-<td align="center">
-<img src="https://img.icons8.com/color/96/azure-1.png" width="55"/>
-<br>Azure<br>Monitor
-</td>
+</div>
 
-<td align="center">
-<img src="https://img.icons8.com/color/96/combo-chart--v1.png" width="55"/>
-<br>Application<br>Insights
-</td>
+<br/>
 
-<td align="center">
-<img src="https://img.icons8.com/fluency/96/azure-1.png" width="55"/>
-<br>Log Analytics<br>Workspace
-</td>
+| Domain | Skills, Frameworks & Enterprise Tooling |
+|---|---|
+| ☁️ **Cloud & Architecture** | Microsoft Azure, AWS, Hub-and-Spoke VNets, ExpressRoute, Azure Firewall Premium, Private Endpoints, Azure Landing Zones (CAF), Azure Site Recovery (ASR) |
+| 🏗️ **Infrastructure as Code** | Terraform, OpenTofu, Terragrunt, modular design, remote state lease-locking in Azure Blob Storage, drift detection |
+| 🔄 **CI/CD & Automation** | GitHub Actions, Azure DevOps Pipelines, multi-stage YAML, reusable workflows, blue/green canary deployments |
+| 🔐 **DevSecOps & Supply Chain** | Shift-Left security, Checkov (CIS Benchmarks), Trivy, GitLeaks, SonarQube, OPA Gatekeeper, HashiCorp Vault, Cosign SBOM |
+| 🤖 **Agentic AI & LLMOps** | Model Context Protocol (MCP), Multi-Agent Swarms (LangGraph), Vector DBs (Qdrant, ChromaDB), GraphRAG, Ollama, Self-Healing SRE |
+| 📦 **Containers & Mesh** | Kubernetes (AKS/EKS), Docker, Helm 3, ArgoCD (GitOps), Cilium eBPF network security, Istio Service Mesh |
+| 📊 **Observability & SRE** | Prometheus, Grafana, OpenTelemetry, Azure Monitor, Azure Monitor Agent (AMA), Data Collection Rules (DCR), PagerDuty |
+| 💰 **FinOps & Governance** | Infracost pre-merge budget gates, Azure Policy Initiatives, Rightsizing, Reserved Instances (RI), Savings Plans |
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=grafana" width="55"/>
-<br>Grafana
-</td>
+---
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=prometheus" width="55"/>
-<br>Prometheus
-</td>
-</tr>
+## 🏅 Industry Certifications
 
+- **AZ-305** — Microsoft Certified: Azure Solutions Architect Expert
+- **AZ-400** — Designing and Implementing Microsoft DevOps Solutions
+- **AZ-104** — Microsoft Certified: Azure Administrator Associate
+- **CKA** — Certified Kubernetes Administrator *(Cloud Native Computing Foundation)*
+- **HashiCorp Certified** — Terraform Associate (003)
 
-<!-- DevOps & AI Tools -->
-<tr>
-<td align="center">
-<img src="https://skillicons.dev/icons?i=github" width="55"/>
-<br>GitHub
-</td>
+---
 
-<td align="center">
-<img src="https://skillicons.dev/icons?i=powershell" width="55"/>
-<br>PowerShell
-</td>
+## 🚀 Featured Enterprise Projects
 
-<td align="center">
-<img src="https://avatars.githubusercontent.com/u/1160530?s=200" width="55"/>
-<br>Harness
-</td>
+### 1. 🔐 [`azure-enterprise-landing-zones`](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones)
+Production-grade Terraform framework implementing Microsoft Cloud Adoption Framework (CAF) with Hub-and-Spoke network topology, Privileged Identity Management (PIM), and Azure Policy guardrails.
+* **Architecture:** Micro-segmented Management Groups (`Platform` vs `Landing Zones`), User Defined Routes (UDRs) forcing egress through Azure Firewall Premium with TLS inspection.
+* **Security Checks:** Enforces 100% compliance against CIS Microsoft Azure Benchmark v2.0 via automated Checkov and Trivy scans in GitHub Actions.
 
-<td align="center">
-<img src="https://github.githubassets.com/images/modules/site/copilot/copilot.png" width="55"/>
-<br>Copilot
-</td>
+[**Explore Azure Landing Zones →**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones) · [**GitHub Actions CI →**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones/actions) · [**Terraform Modules**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones/blob/main/main.tf) · [**Variables Spec**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones/blob/main/variables.tf)
 
-<td align="center">
-<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/openai.svg" width="55"/>
-<br>OpenAI
-</td>
-</tr>
+---
 
+### 2. 🤖 [`agentic-devsecops-copilot`](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot)
+Autonomous Multi-Agent Incident Response & Infrastructure Self-Healing platform driven by Anthropic's **Model Context Protocol (MCP)** and **LangGraph**.
+* **Autonomous SRE:** Listens to webhook alerts from Azure Monitor / Prometheus, queries internal vector knowledge bases (Qdrant) for runbooks, inspects live pod telemetry via MCP, and auto-drafts verified GitOps PRs with Infracost diff calculations.
+* **Impact:** Reduced Mean Time to Resolution (MTTR) from 45 minutes to **under 5 minutes** in production benchmark scenarios.
 
-<!-- AI Assistants -->
-<tr>
+[**Explore Agentic Copilot →**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot) · [**MCP Server Code**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot/blob/main/server.py) · [**LangGraph Swarm**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot/blob/main/agent.py) · [**Evaluation Pipeline**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot/actions)
 
-<td align="center"></td>
+---
 
-<td align="center"></td>
+### 3. ☸️ [`zero-trust-kubernetes-gitops`](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops)
+Hardened Multi-Tenant Kubernetes (AKS/EKS) cluster deployment driven strictly by ArgoCD GitOps pipelines.
+* **Security & Mesh:** Cilium eBPF default-deny network security policies, HashiCorp Vault secrets injected via External Secrets Operator, Sigstore Cosign image verification, and Open Policy Agent (OPA) admission controls.
+* **Supply Chain:** Automated container image vulnerability scanning with Trivy and automated CycloneDX SBOM generation.
 
-<td align="center">
-<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/claude-color.png" width="55"/>
-<br>Claude AI
-</td>
+[**Explore Kubernetes GitOps →**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops) · [**Cilium Policies**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops/tree/main/cilium-policies) · [**OPA Gatekeeper**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops/tree/main/gatekeeper) · [**Vault Sync**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops/tree/main/vault-external-secrets)
 
-<td align="center">
-<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/gemini-color.png" width="55"/>
-<br>Gemini
-</td>
+---
 
-<td align="center"></td>
+### 4. 💰 [`cloud-finops-sentinel`](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel)
+Serverless cloud financial management bot automating multi-cloud waste elimination and resource rightsizing.
+* **Waste Elimination:** Automatically detects and purges unattached managed disks, obsolete VM snapshots, unassociated public IPs, and schedules non-production workloads outside business hours.
+* **Cost Impact:** Saved **32% cloud OPEX** across 100+ simulated workloads with automated Infracost PR budget enforcement.
 
-</tr>
+[**Explore FinOps Sentinel →**](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel) · [**Waste Detectors**](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel/blob/main/analyzers/waste_detector.py) · [**Rightsizing Engine**](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel/blob/main/analyzers/rightsizing.py)
 
-</table>
+---
 
-## 💻 Operating Systems
+## 🔒 How I Approach DevSecOps
 
-<table>
-<tr>
+- **Shift-Left Security:** Embed security checks directly into developer workflows (Git pre-commit hooks, SAST, SCA, and IaC scanning).
+- **Zero-Trust Identity:** Eliminate permanent elevated privileges using Microsoft Entra ID Privileged Identity Management (PIM) with Just-In-Time access.
+- **Immutable Infrastructure as Code:** Enforce version-controlled, modular Terraform modules with remote state lease locking in Azure Blob Storage.
+- **Predictive FinOps Gates:** Integrate Infracost directly into pull requests to make cloud expenditure transparent and accountable before merge.
+- **Autonomous & Self-Healing Resiliency:** Augment human operators with Model Context Protocol (MCP) agents that safely triage incidents and draft auditable GitOps rollbacks.
 
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=windows" width="50"/>
-<br>Windows Server
-</td>
+---
 
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=linux" width="50"/>
-<br>Linux
-</td>
+## 🎯 Current Focus
 
-</tr>
-</table>
+- Expanding **Model Context Protocol (MCP)** server integrations for multi-cloud telemetry and automated SRE triage.
+- Enhancing **eBPF-based observability and security** on Kubernetes using Cilium and OpenTelemetry.
+- Developing multi-region disaster recovery frameworks ensuring **RTO < 15 minutes** and **RPO < 5 minutes**.
+- Optimizing enterprise **Azure Monitor Agent (AMA)** Data Collection Rules to filter telemetry costs at the ingestion source.
 
+---
 
+## 📈 Engineering Telemetry
 
-## 📊 GitHub Activity
+<div align="center">
 
-![Rishikesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RisikeshSharma&theme=react-dark)
+<img src="https://github-readme-stats.vercel.app/api?username=bhakuaengineer-devopsinsiders&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Bhakua Engineer's GitHub Stats" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=bhakuaengineer-devopsinsiders&theme=radical&hide_border=true" alt="GitHub Streak" width="48%" />
 
+</div>
 
-## 📈 GitHub Stats
+---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RisikeshSharma&show_icons=true&theme=tokyonight&cache_seconds=1800)
+## 🤝 Connect
 
+I welcome conversations regarding Cloud Architecture, Enterprise DevSecOps transformations, Kubernetes platforms, and Autonomous AI/LLMOps infrastructure.
 
-## 🔥 Most Used Languages
+<div align="center">
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RisikeshSharma&layout=compact&theme=tokyonight&cache_seconds=1800)
+[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![Schedule a Call](https://img.shields.io/badge/Calendly-Schedule_Architecture_Sync-006BFF?style=for-the-badge&logo=calendly&logoColor=white)](https://calendly.com)
+[![Email](https://img.shields.io/badge/Email-Direct_Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bhakuaengineer@example.com)
 
+<br/>
 
-## 🤝 Connect with me
+<img src="./assets/footer.svg" alt="Bhakua Engineer Control Plane" width="100%" />
 
-
-💼 LinkedIn: www.linkedin.com/in/rishikesh-sharma0208
-
-📧 Email: srishikesh39@gmail.com
-
-
-
+</div>
