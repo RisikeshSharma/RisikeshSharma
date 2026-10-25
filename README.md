@@ -94,17 +94,6 @@ flowchart TD
 | 💰 **FinOps &amp; Governance** | Infracost pre-merge budget gates, Azure Policy Initiatives, Rightsizing, Reserved Instances (RI), Savings Plans |
 
 ---
-
-## 🏅 Industry Certifications
-
-- **AZ-305** — Microsoft Certified: Azure Solutions Architect Expert
-- **AZ-400** — Designing and Implementing Microsoft DevOps Solutions
-- **AZ-104** — Microsoft Certified: Azure Administrator Associate
-- **CKA** — Certified Kubernetes Administrator *(Cloud Native Computing Foundation)*
-- **HashiCorp Certified** — Terraform Associate (003)
-
----
-
 ## 🚀 Featured Enterprise Projects
 
 ### 1. 🔐 [`azure-enterprise-landing-zones`](https://github.com/RisikeshSharma/azure-enterprise-landing-zones)
