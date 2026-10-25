@@ -107,39 +107,39 @@ flowchart TD
 
 ## 🚀 Featured Enterprise Projects
 
-### 1. 🔐 [`azure-enterprise-landing-zones`](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones)
+### 1. 🔐 [`azure-enterprise-landing-zones`](https://github.com/RisikeshSharma/azure-enterprise-landing-zones)
 Production-grade Terraform framework implementing Microsoft Cloud Adoption Framework (CAF) with Hub-and-Spoke network topology, Privileged Identity Management (PIM), and Azure Policy guardrails.
 * **Architecture:** Micro-segmented Management Groups (`Platform` vs `Landing Zones`), User Defined Routes (UDRs) forcing egress through Azure Firewall Premium with TLS inspection.
 * **Security Checks:** Enforces 100% compliance against CIS Microsoft Azure Benchmark v2.0 via automated Checkov and Trivy scans in GitHub Actions.
 
-[**Explore Azure Landing Zones →**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones) · [**GitHub Actions CI →**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones/actions) · [**Terraform Modules**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones/blob/main/main.tf) · [**Variables Spec**](https://github.com/bhakuaengineer-devopsinsiders/azure-enterprise-landing-zones/blob/main/variables.tf)
+[**Explore Azure Landing Zones →**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones) · [**GitHub Actions CI →**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/actions) · [**Terraform Modules**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/blob/main/main.tf) · [**Variables Spec**](https://github.com/RisikeshSharma/azure-enterprise-landing-zones/blob/main/variables.tf)
 
 ---
 
-### 2. 🤖 [`agentic-devsecops-copilot`](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot)
+### 2. 🤖 [`agentic-devsecops-copilot`](https://github.com/RisikeshSharma/agentic-devsecops-copilot)
 Autonomous Multi-Agent Incident Response &amp; Infrastructure Self-Healing platform driven by Anthropic's **Model Context Protocol (MCP)** and **LangGraph**.
 * **Autonomous SRE:** Listens to webhook alerts from Azure Monitor / Prometheus, queries internal vector knowledge bases (Qdrant) for runbooks, inspects live pod telemetry via MCP, and auto-drafts verified GitOps PRs with Infracost diff calculations.
 * **Impact:** Reduced Mean Time to Resolution (MTTR) from 45 minutes to **under 5 minutes** in production benchmark scenarios.
 
-[**Explore Agentic Copilot →**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot) · [**MCP Server Code**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot/blob/main/server.py) · [**LangGraph Swarm**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot/blob/main/agent.py) · [**Evaluation Pipeline**](https://github.com/bhakuaengineer-devopsinsiders/agentic-devsecops-copilot/actions)
+[**Explore Agentic Copilot →**](https://github.com/RisikeshSharma/agentic-devsecops-copilot) · [**MCP Server Code**](https://github.com/RisikeshSharma/agentic-devsecops-copilot/blob/main/server.py) · [**LangGraph Swarm**](https://github.com/RisikeshSharma/agentic-devsecops-copilot/blob/main/agent.py) · [**Evaluation Pipeline**](https://github.com/RisikeshSharma/agentic-devsecops-copilot/actions)
 
 ---
 
-### 3. ☸️ [`zero-trust-kubernetes-gitops`](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops)
+### 3. ☸️ [`zero-trust-kubernetes-gitops`](https://github.com/RisikeshSharma/zero-trust-kubernetes-gitops)
 Hardened Multi-Tenant Kubernetes (AKS/EKS) cluster deployment driven strictly by ArgoCD GitOps pipelines.
 * **Security &amp; Mesh:** Cilium eBPF default-deny network security policies, HashiCorp Vault secrets injected via External Secrets Operator, Sigstore Cosign image verification, and Open Policy Agent (OPA) admission controls.
 * **Supply Chain:** Automated container image vulnerability scanning with Trivy and automated CycloneDX SBOM generation.
 
-[**Explore Kubernetes GitOps →**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops) · [**Cilium Policies**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops/tree/main/cilium-policies) · [**OPA Gatekeeper**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops/tree/main/gatekeeper) · [**Vault Sync**](https://github.com/bhakuaengineer-devopsinsiders/zero-trust-kubernetes-gitops/tree/main/vault-external-secrets)
+[**Explore Kubernetes GitOps →**](https://github.com/RisikeshSharma/zero-trust-kubernetes-gitops) · [**Cilium Policies**](https://github.com/RisikeshSharma/zero-trust-kubernetes-gitops/tree/main/cilium-policies) · [**OPA Gatekeeper**](https://github.com/RisikeshSharma/zero-trust-kubernetes-gitops/tree/main/gatekeeper) · [**Vault Sync**](https://github.com/RisikeshSharma/zero-trust-kubernetes-gitops/tree/main/vault-external-secrets)
 
 ---
 
-### 4. 💰 [`cloud-finops-sentinel`](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel)
+### 4. 💰 [`cloud-finops-sentinel`](https://github.com/RisikeshSharma/cloud-finops-sentinel)
 Serverless cloud financial management bot automating multi-cloud waste elimination and resource rightsizing.
 * **Waste Elimination:** Automatically detects and purges unattached managed disks, obsolete VM snapshots, unassociated public IPs, and schedules non-production workloads outside business hours.
 * **Cost Impact:** Saved **32% cloud OPEX** across 100+ simulated workloads with automated Infracost PR budget enforcement.
 
-[**Explore FinOps Sentinel →**](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel) · [**Waste Detectors**](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel/blob/main/analyzers/waste_detector.py) · [**Rightsizing Engine**](https://github.com/bhakuaengineer-devopsinsiders/cloud-finops-sentinel/blob/main/analyzers/rightsizing.py)
+[**Explore FinOps Sentinel →**](https://github.com/RisikeshSharma/cloud-finops-sentinel) · [**Waste Detectors**](https://github.com/RisikeshSharma/cloud-finops-sentinel/blob/main/analyzers/waste_detector.py) · [**Rightsizing Engine**](https://github.com/RisikeshSharma/cloud-finops-sentinel/blob/main/analyzers/rightsizing.py)
 
 ---
 
