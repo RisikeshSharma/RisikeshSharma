@@ -36,7 +36,7 @@ My architectural background focuses on **governing and migrating 100+ mission-cr
 ```mermaid
 flowchart TD
     subgraph Core["🏛️ Architecture & Governance"]
-        A[Bhakua Engineer Portfolio] --> B[Azure CAF Landing Zones]
+        A[Rishikesh Sharma Portfolio] --> B[Azure CAF Landing Zones]
         A --> C[100+ Workload Migration Engine]
         A --> D[Agentic AI SRE & MCP Platform]
     end
@@ -174,6 +174,6 @@ I welcome conversations regarding Cloud Architecture, Enterprise DevSecOps trans
 
 <br/>
 
-<img src="./assets/footer.svg" alt="Bhakua Engineer Control Plane" width="100%" />
+<img src="./assets/footer.svg" alt="Rishikesh Sharma Control Plane" width="100%" />
 
 </div>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="auto" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient matching reference style -->
+    <linearGradient id="azureGrad" x1="0%" y1="10%" x2="100%" y2="90%">
+      <stop offset="0%" stop-color="#2162A3" />
+      <stop offset="35%" stop-color="#2973B9" />
+      <stop offset="70%" stop-color="#3A95E4" />
+      <stop offset="100%" stop-color="#4FB6FB" />
+    </linearGradient>
+
+    <!-- Top-Right Luminous Radial Glow -->
+    <radialGradient id="skyGlow" cx="85%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Top-Left Depth Radial -->
+    <radialGradient id="depthShade" cx="15%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#0e3868" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0e3868" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle Drop Shadow for Text -->
+    <filter id="textShadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="3.5" flood-color="#061c33" flood-opacity="0.32" />
+    </filter>
+
+    <!-- Card Rounded Border Clip -->
+    <clipPath id="cardRadius">
+      <rect x="0" y="0" width="1200" height="320" rx="12" ry="12" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .name-heading {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Montserrat', 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 64px;
+      font-weight: 900;
+      fill: #ffffff;
+      letter-spacing: 2.2px;
+      text-anchor: middle;
+      filter: url(#textShadow);
+    }
+    .role-subheading {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Montserrat', 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      fill: #ffffff;
+      letter-spacing: 0.6px;
+      text-anchor: middle;
+      filter: url(#textShadow);
+    }
+  </style>
+
+  <g clip-path="url(#cardRadius)">
+    <!-- Base Gradient Background -->
+    <rect width="1200" height="320" fill="url(#azureGrad)" />
+    
+    <!-- Depth and Light Accents -->
+    <rect width="1200" height="320" fill="url(#depthShade)" />
+    <rect width="1200" height="320" fill="url(#skyGlow)" />
+
+    <!-- Wave 1: Gentle Upper Crest (Translucent) -->
+    <path d="M 0,240 
+             C 250,250 480,215 750,230 
+             C 940,242 1080,218 1200,212 
+             L 1200,320 L 0,320 Z" 
+          fill="#ffffff" 
+          fill-opacity="0.10" />
+
+    <!-- Wave 2: Middle Smooth Wave Layer -->
+    <path d="M 0,260 
+             C 200,242 450,268 700,250 
+             C 920,232 1060,252 1200,238 
+             L 1200,320 L 0,320 Z" 
+          fill="#ffffff" 
+          fill-opacity="0.16" />
+
+    <!-- Wave 3: Foreground Dynamic Wave -->
+    <path d="M 0,278 
+             C 300,262 550,288 840,268 
+             C 1020,254 1120,268 1200,262 
+             L 1200,320 L 0,320 Z" 
+          fill="#ffffff" 
+          fill-opacity="0.22" />
+
+    <!-- Wave 4: Bottom Luminous Wave -->
+    <path d="M 0,296 
+             C 350,285 680,305 980,288 
+             C 1090,282 1150,290 1200,286 
+             L 1200,320 L 0,320 Z" 
+          fill="#ffffff" 
+          fill-opacity="0.30" />
+
+    <!-- Name Heading -->
+    <text x="600" y="136" class="name-heading">RISHIKESH SHARMA</text>
+
+    <!-- Subtitle Line with Lightning Bolt -->
+    <text x="600" y="196" class="role-subheading">
+      <tspan fill="#f59e0b" font-size="25">⚡ </tspan>
+      <tspan fill="#ffffff">Senior DevSecOps Engineer | Enterprise Azure Cloud Architect | Agentic AI</tspan>
+    </text>
+  </g>
+</svg>
